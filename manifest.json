@@ -1,0 +1,17 @@
+{
+  "name": "Adjusting the width of coursera's videos",
+  "description": "By modifying the css, you can scale the width of the coursera's video",
+  "version":"1.0.0",
+  "manifest_version":3,
+  "content_scripts": [
+    {
+      "css": ["css/style.css"],
+      "matches": [
+        "https://*/*"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "128.png"
+  }
+}
